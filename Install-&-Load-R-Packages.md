@@ -1,4 +1,4 @@
-## Step 1: Using `R packages`
+### Step 1: Using `R packages`
 `Packages` are a key part of working with `R.`They contain bundles of code called `functions` that allow you to perform a wide range of tasks in `R.` Some of them even contain datasets that you can use to practice the skills.
 
 Some `packages` are installed by default, but many others can be downloaded from an external source such as the Comprehensive R Archive Network, or CRAN.
@@ -23,7 +23,7 @@ Once the chunk above has finished running, you will get a report that summarizes
 
 Now that you have loaded an `R package,` you can start exploring some data. 
 
-## Step 2: Viewing data
+### Step 2: Viewing data
 
 Many of the `tidyverse` packages contain sample datasets that you can use to practice your `R` skills. The `diamonds` dataset in the `ggplot2` package is a great example for previewing `R` functions. 
 
@@ -53,7 +53,7 @@ colnames(diamonds)
 
 After running the code chunk, you may have noticed a number in brackets. This number helps you count the number of columns in your dataset. If you have data with lots of columns and `colnames()` prints the results on multiple lines, each line will have a number in brackets at the start of the line indicating what number column that is! So, for example, "carat" is the first column in the `diamonds` dataset. On the second line, there is the number seven in brackets; "price" is the seventh column. 
 
-## Step 3: Cleaning data
+### Step 3: Cleaning data
 
 One of the most frequent tasks you will have to perform as an analyst is to clean and organize your data. `R` makes this easy! There are many functions you can use to help you perform important tasks easily and quickly. 
 
@@ -79,7 +79,7 @@ summarize(diamonds, mean_carat = mean(carat))
 
 These functions are a great way to get more familiar with your data and start making observations about it. But sometimes, previewing tables isn't enough to understand a dataset. Luckily, `R` has visualization tools built in. 
 
-## Step 4: Visualizing data
+### Step 4: Visualizing data
 With `R,` you can create data visualizations that are simple and easy to understand or complicated and beautiful just by changing a bit of code. `R` empowers you to present the same data in so many different ways, which can help you create new insights or highlight important data findings.  One of the most commonly used visualization packages is the `ggplot2` package, which is loaded automatically when you install and load `tidyverse.` The `diamonds` dataset that you have been using so far is a `ggplot2` dataset.
 
 To build a visualization with `ggplot2` you layer plot elements together with a `+` symbol. Here is a preview of how easy and flexible it is to make visuals using code:
@@ -108,7 +108,7 @@ ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
 
 You will learn many other ways of working with `ggplot2` to make functional and beautiful visuals later on. For now, hopefully you understand that it is both flexible and powerful!
 
-## Step 5: Documentation
+### Step 5: Documentation
 
 R Markdown is a simple language for adding formatting to text documents, which allows you to put code and writing in the same place. For example, all of the section headers have been formatted by adding `##` to the beginning of the line. Markdown can be used to format the text in other ways, such as creating bulleted lists:
 
@@ -118,7 +118,7 @@ R Markdown is a simple language for adding formatting to text documents, which a
 
 When you have written, executed, and documented your code in an `R markdown` document, you can use the `knit` button to export your work to a beautiful, readable document for others. 
 
-## Available R Packages
+### Available R Packages
 
 `R packages` are collections of functions, data, and documentation that extend the functionality of the base R programming language. They are created by the R community to help users solve specific problems and perform various tasks.
 
