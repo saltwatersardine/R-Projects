@@ -23,7 +23,7 @@ Once the chunk above has finished running, you will get a report that summarizes
 
 Now that you have loaded an `R package,` you can start exploring some data. 
 
-# Step 2: Viewing data
+## Step 2: Viewing data
 
 Many of the `tidyverse` packages contain sample datasets that you can use to practice your `R` skills. The `diamonds` dataset in the `ggplot2` package is a great example for previewing `R` functions. 
 
