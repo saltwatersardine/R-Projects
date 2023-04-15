@@ -128,11 +128,15 @@ There are thousands of `R` packages available that can be found in repositories 
 
 Some popular `R` packages include:
 
-- **ggplot2:** A powerful package for creating complex and customizable graphics./
-- **dplyr:** A package for data manipulation, making it easier to work with data frames./
-- **tidyr:** A package to help tidy data, reorganizing and cleaning it for easier analysis./
-- **stringr:** A package for working with strings, providing user-friendly functions for text manipulation./
+- **ggplot2:** A powerful package for creating complex and customizable graphics.
+- **dplyr:** A package for data manipulation, making it easier to work with data frames.
+- **tidyr:** A package to help tidy data, reorganizing and cleaning it for easier analysis.
+- **readr:** A package that provides a set of functions for reading structured data files in R like ('csv', 'tsv', and 'fwf').
+- **stringr:** A package for working with strings, providing user-friendly functions for text manipulation.
 - **lubridate:** A package to simplify working with dates and times in R.
+- **forcats:** A package that provides tools for working with categorical data.
+- **purrr:** A package that provides a set of tools for working with functions and vectors in a more functional programming style.
+- **tibble:** A package that provides a modern and efficient implementation of data frames.
 
 `Quick list of useful R packages` (https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages) is RStudio Support’s list of useful packages with installation instructions and functionality descriptions. 
 
