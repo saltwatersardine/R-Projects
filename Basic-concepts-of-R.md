@@ -21,6 +21,47 @@ sum <- add_numbers(3, 7)
 ```
 The `function` takes **3** and **7**, adds them, and gives back the result **(10)**, which is stored in the variable *sum*.
 
+## Operators
+
+`Operator` = A a symbol in programming that does a specific action on values or variables. There are different types of operators:
+
+**Arithmetic operators:** Do math, like addition **(+)**, subtraction **(-)**, multiplication **(*)**, and division **(/)**.
+
+`Example`:
+
+```r
+a <- 5 + 3  # a is 8
+```
+
+**Comparison operators:** Compare values, like equal to **(==)**, greater than **(>)**, or less than **(<)**.
+
+`Example`:
+
+```r
+x <- 5
+y <- 3
+result <- x > y  # result is TRUE (5 is greater than 3)
+```
+
+**Logical operators:** Work with *true* or *false* values, like **AND** (&& or & in R) and **OR** (|| or | in R) **NOT** (!=).
+
+`Example`:
+
+```r
+x <- 5
+y <- 3
+z <- 7
+result <- x > y & z > x  # result is TRUE (5 > 3 and 7 > 5)
+```
+
+**Assignment operators:** Give a value to a variable. In R, it's **<-** or the equal sign **(=)**.
+
+`Example`:
+
+```r
+age <- 11
+```
+
 ## Argument
 
 `Argument` = information needed by a `function` in `R` in order to run
