@@ -117,3 +117,44 @@ R Markdown is a simple language for adding formatting to text documents, which a
 - You can do that using markdown
 
 When you have written, executed, and documented your code in an `R markdown` document, you can use the `knit` button to export your work to a beautiful, readable document for others. 
+
+## Available R Packages
+
+`R packages` are collections of functions, data, and documentation that extend the functionality of the base R programming language. They are created by the R community to help users solve specific problems and perform various tasks.
+
+There are thousands of `R` packages available that can be found in repositories on Bioconductor, R-Forge, rOpenSci, or GitHub, but the most commonly used repository is `CRAN` (The Comprehensive R Archive Network), a repository where users can download and install packages. 
+
+`CRAN Task Views` (https://cran.r-project.org/web/views/) offers a categorized list of packages for various topics, such as data import/export, graphics, machine learning, and more.
+
+Some popular `R` packages include:
+
+**ggplot2:** A powerful package for creating complex and customizable graphics.
+**dplyr:** A package for data manipulation, making it easier to work with data frames.
+**tidyr:** A package to help tidy data, reorganizing and cleaning it for easier analysis.
+**stringr:** A package for working with strings, providing user-friendly functions for text manipulation.
+**lubridate:** A package to simplify working with dates and times in R.
+
+`Quick list of useful R packages` (https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages) is RStudio Support’s list of useful packages with installation instructions and functionality descriptions. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
