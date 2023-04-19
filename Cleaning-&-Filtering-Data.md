@@ -91,7 +91,7 @@ example_df <- bookings_df %>%
 ```
 ## Step 5: Organizing your Data
 
-To use `arrange()`, `group_by()`, and `filter()` functions on the hotel booking demand dataset, you need to first install and load the `dplyr` and `readr` packages 
+To use `arrange()`, `group_by()`, and `filter()` functions, you need to first install and load the `dplyr` and `readr` packages 
 
 ```r
 install.packages(c("dplyr", "readr"))
