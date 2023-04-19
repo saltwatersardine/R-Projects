@@ -14,23 +14,30 @@
 - `-`: Subtraction
 - `*`:  Multiplication
 - `/`: Division
-- `^` or `**`: Exponentiation (power of) 
-- `%%`: Modulus (returns the remainder of the division of 2 numbers)
-- `%/%`: Integer Division
+- `^` or `**`: Exponent (power of) 
+- `%%`: Modulus (returns the remainder after division)
+- `%/%`: Integer Division (returns an integer value after division) 
 
 `Example`:
 
 ```r
-a <- 10
-b <- 20
+a <- 2
+b <- 5
 
 addition <- a + b
+  result = 7
 subtraction <- a - b
+  result = -3
 multiplication <- a * b
+  result = 10
 division <- a / b
-exponentiation <- a ^ 2
-modulus <- a %% b
-integer_division <- a %/% b
+  result = 0.4
+exponent <- b ^ 2
+  result = 25
+modulus <- b %% a
+  result = 1
+integer_division <- b %/% a
+  result = 2 
 ```
 
 ## Relational Operators
@@ -51,11 +58,17 @@ x <- 5
 y <- 10
 
 equal <- x == y
+  result = FALSE
 not_equal <- x != y
+  result = TRUE
 less_than <- x < y
+  result = TRUE
 greater_than <- x > y
+  result = FALSE
 less_than_or_equal <- x <= y
+  result = TRUE
 greater_than_or_equal <- x >= y
+  result = FALSE
 ```
 
 ## Logical Operators 
@@ -75,10 +88,15 @@ a <- TRUE
 b <- FALSE
 
 and_operator <- a & b
+  result = FALSE
 or_operator <- a | b
+  result = TRUE
 not_operator <- !a
+  result = FALSE
 double_and_operator <- a && b
+  result = FALSE
 double_or_operator <- a || b
+  result = TRUE
 ```
 
 ## Assignment Operators
@@ -94,10 +112,8 @@ Assignment operators are used to assign values to variables. They include:
 ```r
 # Leftward assignment
 x <- 10
-
 # Rightward assignment
 20 -> y
-
 # Equals assignment
 z = 30
 ```
@@ -121,20 +137,4 @@ y <- c(3, 4, 5, 6)
 common_elements <- x %in% y
 ```
 For more information, you can refer to the [R documentation](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Arithmetic).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
